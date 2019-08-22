@@ -1,0 +1,1 @@
+module.exports = e => e.split(',').reduce((acc,cur) => parseInt(acc) - parseInt(cur))
